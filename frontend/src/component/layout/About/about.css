@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+.c {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+}
+
+.c-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+}
+
+.c-right {
+  flex: 0.4;
+  position: relative;
+}
+
+
+.c-left-wrapper {
+  padding: 100px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 50px;
+
+}
+
+.c-name {
+  margin-top: 0.5px;
+  font-size: 45px;
+  font-weight: 400;
+
+}
+
+.ex {
+  margin-top: 2px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.c-para {
+  font-size: 18px;
+  font-weight: 300;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+
+
+.ro {
+  color: tomato;
+}
+
+.c-title {
+  margin-top: 30px;
+
+}
+
+.c-title>p {
+  font-size: 30px;
+  color: tomato;
+}
+
+
+.c-bg {
+  clip-path: circle(36%);
+  background-color: rgb(229, 211, 208);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  
+}
+
+@media screen and (max-width: 650px) {
+
+ .c-img {
+    height: 10000;
+    align-items: center;
+  }
+
+  .c {
+    height: 70vh !important;
+    padding-bottom: 60vmax;
+    align-items: center;
+  }
+  
+
+  .c-para {
+    font-size: 10px;
+  }
+
+ 
+  .c-name {
+    font-size: 12px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .c-name {
+    font-size: 25px;
+  }
+
+  .c {
+    height: 70vh;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .c {
+    flex-direction: column;
+    height: 100vh !important;
+  }
+
+  .c-name {
+    font-size: 20px !important;
+  }
+
+  .c-para {
+    font-size: 15px;
+  }
+
+}

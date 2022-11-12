@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+
+.contact {
+    display: flex;
+
+    height: 70vh;
+    margin-top: 0.5px;
+    font-size: 45px;
+    font-weight: 400;
+    border: rgb(255, 255, 255);
+    padding: 0.9vmax 4vmax;
+    width: auto;
+    font: 300 0.8vmax "Roboto";
+    cursor: pointer;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+
+.left-wrapper {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+
+.title>p {
+    font-size: 25px;
+    color: rgb(79, 77, 77);
+}
+
+.p-color {
+    font-size: 20px;
+    color: green;
+}
+
+.call-me {
+    margin-top: 30px;
+}
+
+.call-me>p {
+    font-size: 20px;
+}
+
+.icons-wrapper {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.insta {
+    color: tomato;
+    margin: 10px;
+}
+
+.face {
+    color: rgb(23, 45, 208);
+    margin: 10px;
+
+}
+
+.git {
+    color: black;
+    margin: 10px;
+}
+
+.link {
+    color: rgb(4, 5, 73);
+    margin: 10px;
+}
+
+.get {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.getspan {
+    color: tomato !important;
+}
+
+.con {
+    color: rgb(23, 24, 23);
+}
+
+
+.svm {
+    display: flex;
+    height: 70vh;
+    margin-top: 0.5px;
+    padding: 4vmax 6vmax;
+    border: rgb(19, 19, 19);
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 4vmax;
+    justify-content: space-evenly;
+    height: 80%;
+    white-space: auto;
+    transition: all 0.5s;
+}
+
+.cnt>div {
+    display: flex;
+    width: 120%;
+    align-items: center;
+}
+
+.cnt>div>input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+
+.cnt>div>textarea {
+
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+
+
+.cnt>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.submitButton {
+    color: rgb(17, 194, 234);
+    font: 300 0.9vmax "Roboto";
+    width: 120%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+
+.submitButton:hover {
+    background-color: rgb(28, 201, 240);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .contact {
+        flex-direction: column;
+    }
+
+
+    .cnt {
+        padding: 5vmax;
+    }
+
+    .cnt>div>input {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax cursive;
+    }
+
+    .cnt>div>svg {
+        font-size: 2.8vmax;
+    }
+
+    .submitButton {
+        font: 300 1.9vmax "Roboto";
+        padding: 1.8vmax;
+    }
+
+
+
+    .right {
+        margin-top: 10px !important;
+        margin-bottom: 20px;
+    }
+
+    .icons-wrapper {
+        font-size: 30px !important;
+    }
+
+    .cpr {
+        height: 50vh;
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .contact {
+        height: 60vh !important;
+        margin-top: -15px !important;
+    }
+
+    .get {
+        margin-top: -10px;
+        font-size: 10px !important;
+    }
+
+    .title>p {
+        font-size: 10px !important;
+    }
+
+    .icons-wrapper {
+        margin-top: -5px;
+        font-size: 10px !important;
+    }
+
+    .call-me {
+        margin-top: 15px;
+    }
+
+    .call-me>p {
+        font-size: 10px !important;
+    }
+
+    .p-color {
+        font-size: 10px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .get {
+        font-size: 15px;
+    }
+
+    .title>p {
+        font-size: 20px;
+    }
+
+    .icons-wrapper {
+        font-size: 20px;
+    }
+
+    .call-me>p {
+        font-size: 20px;
+    }
+
+    .p-color {
+        font-size: 20px;
+    }
+
+}
