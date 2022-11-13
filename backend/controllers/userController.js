@@ -97,8 +97,9 @@ exports.forgotPassword=catchAsyncErrors(async(req,res,next)=>{
      await user.save({validateBeforeSave: false});
 
 // email k liye
-      const resetPasswordUrl=
-     `${req.protocol}://${req.get("host")}/password/reset/${resetToken}`;
+ const resetPasswordUrl = `${req.protocol}://${req.get(
+    "host"
+  )}/password/reset/${resetToken}`;
 
      const message=`Your password reset token is ss
      :-\n\n ${resetPasswordUrl} \n\n if you have not requested this email when please ignore it `;
