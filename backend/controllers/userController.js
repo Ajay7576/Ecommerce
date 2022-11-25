@@ -101,7 +101,7 @@ exports.forgotPassword=catchAsyncErrors(async(req,res,next)=>{
     "host"
   )}/password/reset/${resetToken}`;
 
-     const message=`Your password reset token is ss
+     const message=`Your password reset token is
      :-\n\n ${resetPasswordUrl} \n\n if you have not requested this email when please ignore it `;
 
      try {
