@@ -11,7 +11,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import TransferWithinAStationIcon from "@material-ui/icons/TransferWithinAStation";
 import { Country, State } from "country-state-city";
 import { useAlert } from "react-alert";
- import CheckoutSteps from "../Cart/CheckoutSteps";
+ import CheckoutSteps from "./CheckoutSteps";
 
 const Shipping = ({ history }) => {
   const dispatch = useDispatch();

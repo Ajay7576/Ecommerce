@@ -33,7 +33,6 @@ const LoginSignUp = ({history,location}) => {
   
 
   const { name, email, password } = user;
-
   const [avatar, setAvatar] = useState("/Profile.png");
   const [avatarPreview, setAvatarPreview] = useState("/Profile.png");
 
@@ -55,7 +54,6 @@ const LoginSignUp = ({history,location}) => {
     myForm.set("password", password);
     myForm.set("avatar", avatar);
     dispatch(register(myForm));
-    console.log(myForm);
 
   };
 

@@ -6,7 +6,7 @@ import {clearErrors, getProduct} from "../../actions/productAction";
 import{useSelector,useDispatch} from "react-redux";
 import Loader from '../layout/Loader/Loader';
 import { useAlert } from 'react-alert';
-import ProductCard from './ProductCard.js';
+import ProductCard from './ProductCard.jsx';
 
 
 const Home = () => {

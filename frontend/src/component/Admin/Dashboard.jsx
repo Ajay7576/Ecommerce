@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Sidebar from "./Sidebar.js";
+import Sidebar from "./Sidebar.jsx";
 import "./dashboard.css";
 import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";

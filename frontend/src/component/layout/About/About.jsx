@@ -6,7 +6,7 @@ import React from "react";
 
 import MetaData from "../MetaData";
 
-import TextAnim from "./TextAnim.js";
+import TextAnim from "./TextAnim.jsx";
 
 
 

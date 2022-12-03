@@ -42,7 +42,7 @@ import {All_PRODUCT_REQUEST
               }
 
             dispatch({type:All_PRODUCT_REQUEST });
-            const {data} =await axios.get(link)
+            const {data} = await axios.get(link);
             
             dispatch({
                 type:All_PRODUCT_SUCCESS,
