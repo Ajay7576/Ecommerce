@@ -1,5 +1,5 @@
 import React, { Fragment,useEffect } from 'react'
-import { CgMouse } from "react-icons/cg";
+// import { CgMouse } from "react-icons/cg";
 import "./Home.css";
 import MetaData from '../layout/MetaData';
 import {clearErrors, getProduct} from "../../actions/productAction";
@@ -36,13 +36,14 @@ const Home = () => {
       (<Fragment>
      <MetaData title="JAYOTI JASROTIA" />
      <div className="banner">
-         <p>Welcome to Jayoti Jasrotia</p>
-         <h1>FIND AMAZING PRODUCTS BELOW</h1>
-         <a href="#container">
+         {/* <p>Welcome to Jayoti Jasrotia</p> */}
+         {/* <h1>FIND AMAZING PRODUCTS BELOW</h1> */}
+         <br/>
+         {/* <a href="#container">
            <button>
              Scroll <CgMouse/>
            </button>
-         </a>
+         </a> */}
        </div>
 
 <h2 className="homeHeading">Featured Products</h2>
