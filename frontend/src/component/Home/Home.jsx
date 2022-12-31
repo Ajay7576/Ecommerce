@@ -36,10 +36,9 @@ const Home = () => {
       (<Fragment>
      <MetaData title="JAYOTI JASROTIA" />
      <div className="banner">
-         {/* <p>Welcome to Jayoti Jasrotia</p> */}
-         {/* <h1>FIND AMAZING PRODUCTS BELOW</h1> */}
-         <br/>
-         {/* <a href="#container">
+         {/* <p>Welcome to Jayoti Jasrotia</p>
+         <h1>FIND AMAZING PRODUCTS BELOW</h1>
+         <a href="#container">
            <button>
              Scroll <CgMouse/>
            </button>
